@@ -2,7 +2,7 @@
 
 ## Useage:
 
-```css
+```php
 [get_avatar size="128" class="round" alt="Commenter Avatar" extra_attr="nopin='nopin'"]
 ```
 
@@ -29,7 +29,7 @@
 
 Want to style avatars for certain sections of your site? Simply add a class to the shortcode and then add your css to your site. For example to make a round avatar image you'd do this:
 
-```css
+```php
 [get_avatar class="img-circle"]
 ```
 
