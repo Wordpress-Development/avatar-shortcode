@@ -2,7 +2,7 @@
 
 ## Useage:
 
-```html
+```JSON
 [get_avatar size="128" class="round" alt="Commenter Avatar" extra_attr="nopin='nopin'"]
 ```
 
