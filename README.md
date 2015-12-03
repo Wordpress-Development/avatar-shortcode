@@ -1,5 +1,7 @@
 # Avatar Shortcode (for Wordpress)
 
+Currently if no id is set, the current logged in user's avatar will be displayed.  
+
 ## Useage:
 
 ### Shortcode
@@ -10,19 +12,18 @@
 <img alt="Commenter Avatar" src="http://1.gravatar.com/avatar/...?s=128&amp;d=mm" srcset="http://1.gravatar.com/avatar/...?s=256&amp;d=mm 2x" class="avatar avatar-128 photo img-circle" height="128" width="128" nopin="nopin">
 ```
 
-## Arguements:
+## Arguements and Examples:
 
- - `id`
- - `size`
- - `default`
- - `alt`
- - `height`
- - `width`
- - `force_default`
- - `rating`
- - `class`
- - `force_display`
- - `extra_attr`
+ - `id` - "2" or "foo@example.com"
+ - `size` - "64"
+ - `default`- "mystery"
+ - `alt` - "Avatar Image"
+ - `height` - "32"
+ - `width` - "32"
+ - `rating` - "PG"
+ - `class` - "img-circle"
+ - `force_display` - "true"
+ - `extra_attr` - "nopin='nopin'"
  
 
 ## Options
