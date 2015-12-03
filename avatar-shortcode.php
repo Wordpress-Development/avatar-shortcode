@@ -17,7 +17,7 @@
  * Author URI:        http://profiles.wordpress.org/codecandid
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * GitHub Plugin URI: https://github.com/Wordpress-Development/avatar/
+ * GitHub Plugin URI: https://github.com/Wordpress-Development/avatar-shortcode/
  */
  
 if ( function_exists( 'get_avatar' ) ) {
@@ -46,7 +46,6 @@ function brw_get_avatar_shortcode ( $attributes ) {
                 'height' => $height,
                 'force_display' => $force_display  
         );    
-	
 	return get_avatar( $id, $size, $default, $alt, $args );
 }
     add_shortcode ('get_avatar', 'brw_get_avatar_shortcode');
