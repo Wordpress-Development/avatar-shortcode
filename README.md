@@ -14,16 +14,16 @@ Currently if no id is set, the current logged in user's avatar will be displayed
 
 ## Arguements and Examples:
 
- - `id` - "2" or "foo@example.com"
- - `size` - "64"
- - `default`- "mystery"
- - `alt` - "Avatar Image"
- - `height` - "32"
- - `width` - "32"
- - `rating` - "PG"
- - `class` - "img-circle"
- - `force_display` - "true"
- - `extra_attr` - "nopin='nopin'"
+ - `id` = "2" or "foo@example.com"
+ - `size` = "64"
+ - `default` = "mystery"
+ - `alt` = "Avatar Image"
+ - `height` = "32"
+ - `width` = "32"
+ - `rating` = "PG"
+ - `class` = "img-circle"
+ - `force_display` = "true"
+ - `extra_attr` = "nopin='nopin'"
  
 
 ## Options
