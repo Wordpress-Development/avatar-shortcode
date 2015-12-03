@@ -2,10 +2,10 @@
 
 ## Useage:
 
-`[get_avatar size="128" class="round" alt="Commenter Avatar" extra_attr="nopin='nopin'"]`
+`[get_avatar size="128" class="img-circle" alt="Commenter Avatar" extra_attr="nopin='nopin'"]`
 
 ```html
-<img alt="Commenter Avatar" src="http://1.gravatar.com/avatar/1e5318e4e32980c273cc2e58d2fbc82c?s=128&amp;d=mm" srcset="http://1.gravatar.com/avatar/1e5318e4e32980c273cc2e58d2fbc82c?s=256&amp;d=mm 2x" class="avatar avatar-128 photo pinterest-nopin" height="128" width="128" nopin="nopin">
+<img alt="Commenter Avatar" src="http://1.gravatar.com/avatar/...?s=128&amp;d=mm" srcset="http://1.gravatar.com/avatar/...?s=256&amp;d=mm 2x" class="avatar avatar-128 photo img-circle" height="128" width="128" nopin="nopin">
 ```
 
 ## Arguements:
