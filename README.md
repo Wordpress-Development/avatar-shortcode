@@ -2,8 +2,10 @@
 
 ## Useage:
 
+### Shortcode
 `[get_avatar size="128" class="img-circle" alt="Commenter Avatar" extra_attr="nopin='nopin'"]`
 
+### Output
 ```html
 <img alt="Commenter Avatar" src="http://1.gravatar.com/avatar/...?s=128&amp;d=mm" srcset="http://1.gravatar.com/avatar/...?s=256&amp;d=mm 2x" class="avatar avatar-128 photo img-circle" height="128" width="128" nopin="nopin">
 ```
