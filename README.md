@@ -1,6 +1,6 @@
 # Avatar Shortcode (for Wordpress)
 
-Currently if no id is set, the current logged in user's avatar will be displayed.  
+Display an avatar using a shortcode. Currently if no id is set, the current logged in user's avatar will be displayed.  
 
 ## Useage:
 
