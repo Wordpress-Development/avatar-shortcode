@@ -22,8 +22,7 @@
  
 if ( function_exists( 'get_avatar' ) ) {
 function brw_get_avatar_shortcode ( $attributes ) {
-	global $current_user;
-        get_currentuserinfo();
+	$current_user = wp_get_current_user();
         
 	extract(shortcode_atts(array(
 		'id' => $current_user->ID,
